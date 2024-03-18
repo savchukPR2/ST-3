@@ -44,13 +44,13 @@ class TimedDoor : public Door {
  private:
   DoorTimerAdapter * adapter;
   int iTimeout;
-  bool opened;
+  bool isOpened;
  public:
   explicit TimedDoor(int);
   bool isDoorOpened();
   void unlock();
   void lock();
-  void DoorTimeOut();
+  int  getTimeOut();
   void throwState();
 };
 
