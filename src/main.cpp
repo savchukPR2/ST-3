@@ -1,4 +1,5 @@
-// Copyright 2021 GHA Test Team
+// Copyright 2024 Savchuk Anton
+
 #include "TimedDoor.h"
 #include <iostream>
 
